@@ -25,7 +25,7 @@ h5 {
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
-    letter-spacing: 0%;   
+    letter-spacing: 0%;
     margin-bottom: 16px;
     margin-top: 10.5px;
 }
@@ -103,6 +103,7 @@ nav {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     padding: 80px 97px;
+    gap: 48px;
 }
 
 .card {
@@ -114,16 +115,18 @@ nav {
     gap: 100px;
     margin-bottom: 32px;
 }
+
 .card2 {
-    border-radius: 16px; 
-    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);    
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
     padding: 48px;
     display: flex;
     justify-content: flex-start;
     gap: 100px;
     margin-bottom: 32px;
 }
-.btn3{
+
+.btn3 {
     width: 244px;
     height: 57px;
     opacity: 0.8;
@@ -133,4 +136,49 @@ nav {
     color: #0D1321;
     stroke: 1px Inside rgb(13, 19, 33);
     margin-top: 32px;
+}
+
+
+/* My Inspiration Style */
+
+.inspiration {
+    margin: 0 152px 90px 148px;
+    border-radius: 16px;
+    padding: 80px 97px;
+    gap: 48px;
+}
+
+.youtube-border {
+
+    /* Frame 14 */
+    position: static;
+    width: 1140px;
+    height: 614px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 32px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 48px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    stroke: 1px Inside rgba(13, 19, 33, 0.2);
+}
+
+.youtube {
+    position: relative;
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+    overflow: hidden;
+    position: absolute;
 }
