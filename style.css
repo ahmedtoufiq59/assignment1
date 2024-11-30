@@ -30,6 +30,13 @@ h5 {
     margin-top: 10.5px;
 }
 
+a {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    margin-top: 24px;
+}
+
 .txt-center {
     text-align: center;
 }
@@ -38,6 +45,15 @@ h5 {
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
+    padding: 0 144px;
+
+}
+
+.subtitleCards {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: left;
 }
 
 /* Nav Style */
@@ -142,19 +158,18 @@ nav {
 /* My Inspiration Style */
 
 .inspiration {
-    margin: 0 152px 90px 148px;
+    margin: 0 152px 0 148px;
     border-radius: 16px;
-    padding: 80px 97px;
+    padding: 0 97px;
     gap: 48px;
 }
 
 .youtube-border {
 
-    /* Frame 14 */
     position: static;
     width: 1140px;
     height: 614px;
-    /* Auto layout */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -162,7 +177,6 @@ nav {
     gap: 10;
     padding: 32px;
 
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     align-self: stretch;
@@ -181,4 +195,56 @@ nav {
     border-radius: 16px;
     overflow: hidden;
     position: absolute;
+}
+
+/* Current target style */
+.currentTarget {
+    margin: 0 152px 111px 148px;
+    border-radius: 16px;
+    padding: 0 97px;
+    gap: 24px;
+}
+
+.styleCards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.styleCard {
+    padding: 40px;
+    border-radius: 16px;
+    width: 364px;
+}
+
+.cardTitle {
+    font-size: 24px;
+    margin: 24px 0 8px 0;
+    font-weight: 800;
+}
+
+/* Next Target Part */
+
+.nextTarget {
+    margin: 0 152px 0 148px;
+    border-radius: 16px;
+    padding: 0 97px;
+    gap: 24px;
+}
+
+.nextCard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    gap: 24px;
+    margin-top: 24px;
+    height: 219px;
+
 }
